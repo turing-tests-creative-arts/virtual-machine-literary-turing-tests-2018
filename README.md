@@ -55,8 +55,8 @@ image](https://cloud-images.ubuntu.com/xenial/current/). A number of packages
 are installed using the following commands:
 
 ```bash
-apt-get update && apt-get -yq dist-upgrade
-
+apt-get update && \
+apt-get -yq dist-upgrade && \
 apt-get install -yq \
   wget \
   bzip2 \
@@ -64,9 +64,8 @@ apt-get install -yq \
   locales \
   build-essential \
   gfortran \
-  gcc
-  clang
-
+  gcc \
+  clang && \
 apt-get install -yq \
   git \
   vim \
@@ -84,15 +83,13 @@ apt-get install -yq \
   texlive-generic-recommended \
   texlive-xetex \
   libxrender1 \
-  inkscape
-
+  inkscape && \
 apt-get install -yq \
   python3-all \
   python3-dev \
   python-all \
   python-dev \
-  libav-tools
-
+  libav-tools && \
 apt-get install -yq \
   python3-pandas \
   python3-numexpr \
@@ -106,8 +103,7 @@ apt-get install -yq \
   python3-hdf5storage \
   python3-h5py \
   python3-lxml \
-  python3-xlrd
-
+  python3-xlrd && \
 apt-get install -yq \
   python-pandas \
   python-numexpr \
@@ -121,8 +117,7 @@ apt-get install -yq \
   python-hdf5storage \
   python-h5py \
   python-lxml \
-  python-xlrd
-
+  python-xlrd && \
 apt-get install -yq \
   r-base \
   r-base-dev \
