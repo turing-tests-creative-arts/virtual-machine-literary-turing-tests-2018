@@ -91,6 +91,7 @@ apt-get install -yq \
   python-dev \
   libav-tools && \
 apt-get install -yq \
+  python3-pip \
   python3-pandas \
   python3-numexpr \
   python3-matplotlib \
@@ -105,6 +106,7 @@ apt-get install -yq \
   python3-lxml \
   python3-xlrd && \
 apt-get install -yq \
+  python-pip \
   python-pandas \
   python-numexpr \
   python-matplotlib \
